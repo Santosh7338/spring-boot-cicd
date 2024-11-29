@@ -8,7 +8,7 @@ public class RestController {
 	@GetMapping("/welcome")
 	public String test() {
 		
-		return "welcome to docker cicd version-6";
+		return "this is uat branch - v1";
 	}
 
 }
